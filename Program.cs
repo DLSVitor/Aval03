@@ -7,7 +7,7 @@ class Program
     //Vitor Henrique Cenatti
     static void Main()
     {
-        string filePath = @"..\aval03\provinhaBarbadinha.txt";
+        string filePath = @"provinhaBarbadinha.txt";
         string ciphertext = File.ReadAllText(filePath);
 
         string textodecifrado = DeTeusPulosDecrypt(ciphertext);
